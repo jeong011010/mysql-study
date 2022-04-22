@@ -31,3 +31,12 @@ update (table 이름) set (colums 이름)='수정내용' + (수정 조건 (where
 update topic set description='oracle is', title='Oracle' where id=2;  
 ```
 ![image](https://user-images.githubusercontent.com/28985560/164628821-1f2799cf-ec6a-4dfb-ab80-abe200e03c0a.png)
+
+------------
+### delete
+delete from (table 이름) + (삭제 위치 (where id=5;))
+
+```
+delete from topic where id=5;  
+```
+![캡처](https://user-images.githubusercontent.com/28985560/164637635-b124c347-e6f2-432b-8058-0acb5563dd24.JPG)
