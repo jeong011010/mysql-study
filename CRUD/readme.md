@@ -22,3 +22,12 @@ select (colums 이름들) from (table 이름) + (여러가지 구문)
 select * from topic where author = 'egoing' order by id desc;  
 ```
 ![](https://user-images.githubusercontent.com/28985560/164627750-7fee44cc-480c-499e-a3bc-edd78c7ecbf7.JPG)
+
+------------
+### update
+update (table 이름) set (colums 이름)='수정내용' + (수정 조건 (where id=2;))  
+
+```
+update topic set description='oracle is', title='Oracle' where id=2;  
+```
+![image](https://user-images.githubusercontent.com/28985560/164628821-1f2799cf-ec6a-4dfb-ab80-abe200e03c0a.png)
